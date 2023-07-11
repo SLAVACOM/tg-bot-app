@@ -4,6 +4,8 @@ const cors = require('cors');
 
 const bot_token = '6387917192:AAHdd1Lh1zKU37O_LpR2GF3fcRPkbH9vUmQ';
 const webAppUrl = 'https://sushistik.netlify.app';
+const webApghgpUrl = 'https://sushistik.netlify.app';
+const webApphghUrl = 'https://sushistik.netlify.app';
 
 const bot = new TelegramBot(bot_token, {polling: true});
 const app = express();
